@@ -15,7 +15,7 @@ sudo echo "********npm install"
 sudo npm install
 sudo echo  finished npm install
 #create a production ready build of react application
-#sudo echo '********          production build    ******************** '
+#sudo echo '********           production build    ******************** '
 #sudo npm run build
 sudo echo '***************   end production build  *****************'
 #start application
