@@ -8,15 +8,16 @@ sudo npm install -g pm2
 
 
 
-cd devops-project
+sudo cd devops-project
+sudo echo "devops-project"
 #install dependencies
-#echo "********npm install"
-sudo npm install
-echo  finished npm install
+sudo echo "********npm install"
+#sudo npm install
+sudo echo  finished npm install
 #create a production ready build of react application
-echo '********production buildbuild '
+sudo echo '********production buildbuild '
 #sudo npm run build
-echo 'production build'
+sudo echo 'production build'
 #start application
-echo 'start application'
+sudo echo 'start application'
 #sudo pm2 serve build 3001 --name "devopssec-project"
