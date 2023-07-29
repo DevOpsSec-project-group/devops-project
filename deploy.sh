@@ -6,7 +6,7 @@ sudo npm install -g pm2
 #pm2 stop devops-project
 
 cd devops-project
-current_dir = $(pwd)
+current_dir=$(dirname "$(realpath "$0")")
 echo "current directory: $current_dir"
 #sudo echo "devops-project"
 #install dependencies
