@@ -15,9 +15,9 @@ fi
 
 cd devops-project
 #install dependencies
-echo "********npm install"
+#echo "********npm install"
 sudo npm install
-echo 'finished npm install'
+echo  finished npm install
 #create a production ready build of react application
 echo '********production buildbuild '
 #sudo npm run build
