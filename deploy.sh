@@ -12,7 +12,7 @@ sudo cd devops-project
 sudo echo "devops-project"
 #install dependencies
 sudo echo "********npm install"
-#sudo npm install
+sudo npm install
 sudo echo  finished npm install
 #create a production ready build of react application
 sudo echo '********production buildbuild '
