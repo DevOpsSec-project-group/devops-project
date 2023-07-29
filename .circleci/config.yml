@@ -37,11 +37,11 @@ jobs:
           key: dependency-cache-{{ checksum "package-lock.json" }}
       - run:
           name: install server to serve react app
-          command: npm install -g serve
+          command: sudo npm install -g serve
       
       - run:
           name: install-npm
-          command: npm install
+          command: sudo npm install
       
       - save_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}

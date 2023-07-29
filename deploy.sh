@@ -7,8 +7,8 @@ pm2 stop devops-project
 
 cd devops-project
 #install dependencies
-npm install
+sudo npm install
 #create a production ready build of react application
-npm run build
+sudo npm run build
 #start application
-5. pm2 serve build 3001 --name "devopssec-project"
+sudo pm2 serve build 3001 --name "devopssec-project"
