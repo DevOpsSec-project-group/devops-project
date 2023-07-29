@@ -5,6 +5,14 @@ sudo npm install -g pm2
 #stop any instance of the application running
 pm2 stop devops-project
 
+#remove folder if exists
+echo "remove folder if exists"
+if [ -d "devops-project" ]; then
+   rm -r "devops-project"
+fi
+
+
+
 cd devops-project
 #install dependencies
 echo "********npm install"
