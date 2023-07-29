@@ -15,9 +15,9 @@ sudo echo "********npm install"
 sudo npm install
 sudo echo  finished npm install
 #create a production ready build of react application
-sudo echo '********production buildbuild '
-#sudo npm run build
-sudo echo 'production build'
+sudo echo '********      production build    ******************** '
+sudo npm run build
+sudo echo '***************   end production build  *****************'
 #start application
 sudo echo 'start application'
 #sudo pm2 serve build 3001 --name "devopssec-project"
