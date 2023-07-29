@@ -5,7 +5,8 @@ sudo npm install -g pm2
 #stop any instance of the application running
 #pm2 stop devops-project
 
-#cd devops-project
+cd devops-project
+echo "current directory: $pwd"
 #sudo echo "devops-project"
 #install dependencies
 #sudo echo "********npm install"
