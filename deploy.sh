@@ -8,11 +8,10 @@ sudo npm install -g pm2
 cd devops-project
 current_dir=$(dirname "$(realpath "$0")")
 echo "current directory: $current_dir"
-#sudo echo "devops-project"
+
 #install dependencies
-#sudo echo "********npm install"
-#sudo npm install
-#sudo echo  finished npm install
+sudo npm install
+echo  finished npm install
 #create a production ready build of react application
 #sudo echo '********           production build    ******************** '
 #sudo npm run build
