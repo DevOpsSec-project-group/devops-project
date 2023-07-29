@@ -3,13 +3,8 @@ sudo apt update && sudo apt install nodejs npm
 #install pm2
 sudo npm install -g pm2
 #stop any instance of the application running
-pm2 stop devops-project
+#pm2 stop devops-project
 
-#remove folder if exists
-echo "remove folder if exists"
-if [ -d "devops-project" ]; then
-   rm -r "devops-project"
-fi
 
 
 

@@ -42,9 +42,7 @@ jobs:
       - run:
           name: install-npm
           command: sudo npm install
-      - run:
-          name: npm run build
-          command: sudo npm run build
+      
       
       - save_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
